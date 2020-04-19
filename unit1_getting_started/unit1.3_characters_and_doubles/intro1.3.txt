@@ -1,0 +1,14 @@
+At the end of the unit, you will be able to:
+
+- distinguish between and give examples of integer, double and character data
+- declare a variable of type char
+- declare a variable of type double
+- assign a character to a variable of type char
+- assign a decimal to a variable of type double
+- use the format specifier %c to read character using scanf and print characters using printf
+- use the format specifier %lf to read decimals using scanf
+- use the format specifier %lf with modifiers to print decimals to a given precision
+- predict results of integer division in C
+- explain the importance of conversion between integer and double data types
+- use casting to convert between integer and double data types
+- create C-programs that perform tasks involving user input, integer and floating point arithmetic operations and output to the screen
