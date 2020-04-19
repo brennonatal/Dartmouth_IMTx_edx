@@ -20,8 +20,10 @@ int main(void)
     int i = 0;
     char plus = '+';
     int iPlus = 4;
+    int j = 0;
+    int iChar = 1;
 
-    for (i = 1; i <= 5; i++)
+    for (j = 1; j <= 5; j++)
     { //pyramid loop
 
         for (i = 0; i < iPlus; i++)
@@ -29,7 +31,7 @@ int main(void)
             printf("%c", plus);
         }
 
-        for (i = 1; i <= 9; i++)
+        for (i = 1; i <= iChar; i++)
         {
             printf("%c", letter);
         }
@@ -39,6 +41,7 @@ int main(void)
             printf("%c", plus);
         }
         iPlus = iPlus - 1;
+        iChar += 2;
         printf("\n");
     }
 
