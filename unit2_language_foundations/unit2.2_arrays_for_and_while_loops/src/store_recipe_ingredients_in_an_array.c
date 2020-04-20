@@ -3,27 +3,23 @@ There are 10 ingredients in the recipe and the quantities needed for each of the
 Your program must read 10 integers (the quantities needed for each of the ingredients, in order) and store them in an array. 
 It should then read an integer which represents an ingredient's ID number (between 0 and 9), 
 and output the corresponding quantity.
-
-Example
-Input:
-500 180 650 25 666 42 421 1 370 211
-3
-Output:
-25 */
+*/
 
 #include <stdio.h>
 
-int main(void){
+int main(void)
+{
     int ingredients[10];
     int ingredientID = 0;
-    
+
     int i = 0;
-    for(i = 0; i < 10; i++){
+    for (i = 0; i < 10; i++)
+    {
         scanf("%d", &ingredients[i]);
     }
-    
+
     scanf("%d", &ingredientID);
     printf("%d", ingredients[ingredientID]);
-    
+
     return 0;
 }
