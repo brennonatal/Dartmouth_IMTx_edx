@@ -1,0 +1,9 @@
+At the end of the unit, you will be able to:
+
+decompose a more complex programming task into functions
+create functions with arguments passed by value
+find a prototype for a given function
+write a function call for a given function
+explain the purpose and difference of function definition, function prototype and function call 
+explain what happens in memory when a function is called recursively
+convert a program using a loop to one using recursion
