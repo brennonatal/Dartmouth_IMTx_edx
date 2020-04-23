@@ -1,0 +1,7 @@
+At the end of the unit, you will be able to:
+
+- visualize in memory the concept of a pointer 
+- use pointers to pass variables by reference to functions
+- perform simple pointer arithmetic
+- demonstrate that an array name is a pointer by performing pointer arithmetic
+- create functions to which arrays can be passed and that can modify arrays
