@@ -1,0 +1,7 @@
+At the end of the unit, you will be able to:
+
+Identify components of the Von Neumann architecture model
+Recall how computer memory is organized and addressed
+Use the sizeof() function to find out how much space a variable of a certain type uses up in memory on a given computer system
+Recognize overflow and roundoff errors and their causes
+Identify the scope of a variable within a C program including blocks and functions
