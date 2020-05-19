@@ -19,17 +19,18 @@ to test your code, please do not modify these:
 #include <stdio.h>
 #include <stdlib.h>
 
-struct student {
-      char name[50];
-      int age;
-      struct student *next;
+struct student
+{
+    char name[50];
+    int age;
+    struct student *next;
 };
 
 struct student *createStudent(char studentName[], int studentAge);
-void copyStr(char name[], struct student *);
-// Write other function prototypes here (if any)
+void copyStr(char *source, char *target);
 
-int main(void) {
+int main(void)
+{
     struct student *studptr;
     int myAge;
     char myName[50];
@@ -40,20 +41,23 @@ int main(void) {
     return 0;
 }
 
-// Write your createStudent function here (and any other functions you see fit)
-struct student *createStudent(char studentName[], int studentAge){
-    struct student * ptr;
-    ptr = (struct student *) malloc(sizeof(struct student *));
-    copyStr(studentName, ptr);
+struct student *createStudent(char studentName[], int studentAge)
+{
+    struct student *ptr;
+    ptr = (struct student *)malloc(sizeof(struct student));
+    copyStr(studentName, ptr->name);
     ptr->age = studentAge;
     ptr->next = NULL;
     return ptr;
 }
 
-void copyStr(char tmpName[], struct student * ptr){
+void copyStr(char *source, char *target)
+{
     int i = 0;
-    while(tmpName[i] != '\0'){
-        ptr->name[i] = tmpName[i];
+    while (source[i] != '\0')
+    {
+        target[i] = source[i];
         i++;
     }
+    target[i] = '\0';
 }
