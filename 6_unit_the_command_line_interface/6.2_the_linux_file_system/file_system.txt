@@ -1,0 +1,58 @@
+/bin
+This is the directory which contains all of the basic commands needed
+to start and use a minimal system.
+The directory name is derived from the abbreviation of binary.
+The executable file of an application is called a binary.
+
+/sbin
+This directory contains commands--
+executable, so binaries-- for the super user, also called root user.
+The root user is the administrator of the computer
+and has more powers than simple users.
+
+/home
+Home contains all of user directories-- for example,
+/home/smith or /home/brenno for me.
+
+/root
+This is the home directory of the root user,
+the user that has the 'superpowers'.
+
+/etc
+This directory contains configuration files.
+In fact, it is the abbreviation of Editable Text Configuration.
+
+/lib
+Where the system stores software libraries required for executables
+in /bin and /sbin
+
+/tmp
+This directory is for temporary files.
+Sometimes, it is located in /var/tmp or /run/tmp
+It is usually emptied every time you restart the computer.
+
+/var
+This contains various files used by the operating system, such as databases,
+email boxes, and history.
+A log of what happened on the system is in /var/logs, for example.
+
+/usr
+USR is the acronym of Unix System Resources,
+and not user, as one might think.
+This folder contains some subfolders, similar to those present
+that the roots, but they are used to extend the system operations.
+For example, this folder includes /usr/bin
+That contains executable binaries that are not already present in /bin
+and, therefore, not essential to a minimal system.
+Or /usr/lib that contains those libraries that are not essential
+for a minimal system.
+
+/dev
+This directory contains files, each of which
+corresponds, directly or indirectly, to a physical device.
+dev is a decent abbreviation for device.
+This is one of the strengths of Linux.
+It considers everything as a file, including devices,
+such as /dev/printer, /dev/audio, /dev/mem for memory, /dev/networkcard,
+and so forth.
+
