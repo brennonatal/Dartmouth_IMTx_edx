@@ -1,0 +1,7 @@
+gcc program.c //Compile program into same dir as a.out
+
+gcc program.c -o program //Compile program into same dir as program
+
+gcc program.c -o program //Compile program into same dir as program
+
+gcc -std=c11 -Wall -fmax-errors=10 -Wextra otherprogram.c -o otherprogram // use c11, show all warnings, show max 10 errors, show extra warnings
